@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_surface"
+    android:padding="8dp"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnX"
+            style="?attr/materialButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="6dp"
+            android:text="x"
+            android:textColor="@color/neon_cyan" />
+
+        <Button
+            android:id="@+id/btnPotencia"
+            style="?attr/materialButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="6dp"
+            android:text="^"
+            android:textColor="@color/neon_cyan" />
+
+        <Button
+            android:id="@+id/btnRaiz"
+            style="?attr/materialButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="6dp"
+            android:text="√()"
+            android:textColor="@color/neon_cyan" />
+
+        <Button
+            android:id="@+id/btnSin"
+            style="?attr/materialButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="6dp"
+            android:text="sin"
+            android:textColor="@color/neon_cyan" />
+
+        <Button
+            android:id="@+id/btnCos"
+            style="?attr/materialButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="6dp"
+            android:text="cos"
+            android:textColor="@color/neon_cyan" />
+
+        <Button
+            android:id="@+id/btnTan"
+            style="?attr/materialButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="6dp"
+            android:text="tan"
+            android:textColor="@color/neon_cyan" />
+
+        <Button
+            android:id="@+id/btnSec"
+            style="?attr/materialButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="6dp"
+            android:text="sec"
+            android:textColor="@color/neon_cyan" />
+
+        <Button
+            android:id="@+id/btnCsc"
+            style="?attr/materialButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="6dp"
+            android:text="csc"
+            android:textColor="@color/neon_cyan" />
+
+        <Button
+            android:id="@+id/btnCot"
+            style="?attr/materialButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginEnd="6dp"
+            android:text="cot"
+            android:textColor="@color/neon_cyan" />
+
+        <Button
+            android:id="@+id/btnPi"
+            style="?attr/materialButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="π"
+            android:textColor="@color/neon_cyan" />
+
+    </LinearLayout>
+</HorizontalScrollView>

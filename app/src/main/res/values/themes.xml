@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Material3.DayNight" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Colores principales -->
+        <item name="colorPrimary">@color/neon_cyan</item>
+        <item name="colorPrimaryVariant">@color/neon_magenta</item>
+        <item name="colorOnPrimary">@color/black_oled</item>
+
+        <!-- Fondos generales -->
+        <item name="android:windowBackground">@color/black_oled</item>
+        <item name="colorSurface">@color/dark_surface</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+
+        <!-- Fuente técnica para toda la app -->
+        <item name="android:fontFamily">monospace</item>
+
+        <!-- Aseguramos que los textos también usen esta familia -->
+        <item name="fontFamily">monospace</item>
+    </style>
+</resources>
